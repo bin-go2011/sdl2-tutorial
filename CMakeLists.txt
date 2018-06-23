@@ -9,3 +9,6 @@ include_directories(${SDL2_INCLUDE_DIR})
 
 add_subdirectory(01_hello_SDL)
 add_subdirectory(02_getting_an_image_on_the_screen)
+add_subdirectory(03_event_driven_programming)
+add_subdirectory(04_key_presses)
+add_subdirectory(05_optimized_surface_loading_and_soft_stretching)

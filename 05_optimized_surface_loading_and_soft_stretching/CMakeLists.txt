@@ -1,0 +1,2 @@
+add_executable(05_optimized_surface_loading_and_soft_stretching main.cpp)
+target_link_libraries(05_optimized_surface_loading_and_soft_stretching ${SDL2_LIBRARY})
