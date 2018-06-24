@@ -111,8 +111,8 @@ FIND_PATH(SDL2_INCLUDE_DIR SDL.h
 	i686-w64-mingw32/include/SDL2
 	x86_64-w64-mingw32/include/SDL2
 	PATHS
-	~/Library/Frameworks/SDL2.framework
-	/Library/Frameworks/SDL2.framework
+	~/Library/Frameworks/SDL2.framework/Headers
+	/Library/Frameworks/SDL2.framework/Headers
 	/usr/local/include/SDL2
 	/usr/include/SDL2
 	/sw # Fink
