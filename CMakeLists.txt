@@ -5,10 +5,12 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/")
 
 find_package(SDL2 REQUIRED)
 find_package(SDL2_image REQUIRED)
+find_package(SDL2_ttf REQUIRED)
 
 include_directories(
     ${SDL2_INCLUDE_DIR}
     ${SDL2_IMAGE_INCLUDE_DIR}
+    ${SDL2_TTF_INCLUDE_DIRS}
 )
 
 add_subdirectory(01_hello_SDL)
@@ -26,3 +28,6 @@ add_subdirectory(12_color_modulation)
 add_subdirectory(13_alpha_blending)
 add_subdirectory(14_animated_sprites_and_vsync)
 add_subdirectory(15_rotation_and_flipping)
+add_subdirectory(16_true_type_fonts)
+add_subdirectory(17_mouse_events)
+add_subdirectory(18_key_states)
